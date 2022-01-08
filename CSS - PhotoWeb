@@ -1,0 +1,48 @@
+
+.tag{
+    color: blue;
+    animation: forwards;
+    text-align: center;
+}
+#video{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+}
+#canvas{
+    margin-left: 50px;
+    width: 500px;
+}
+#rectangle{
+    width:2000px;
+    height:100px;
+    background:rgb(111, 165, 196);
+    float: right;
+    margin-top: 10px;
+}
+#logo1{
+   margin-left: 90px;
+   margin-top: 10px;
+   float: left;
+}
+#tit{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-left: 35px;
+    font-size: 12px;
+    float: left;
+
+}
+#rectangle2{
+    width:2000px;
+    height:6px;
+    background:rgb(21, 117, 172);
+    float: right;
+    margin-top: 10px;
+}
+#btn{
+    background-color: rgb(21, 117, 172);
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-family: cursive;
+    color: white;
+}
