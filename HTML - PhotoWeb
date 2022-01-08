@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="estilo.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoWeb - by Farias</title>
+    <link rel="shortcut icon" href="logo1.png">
+    <header>
+        <div id="rectangle2"></div>
+        <img src="logo1.png" alt="Logo Ufrn" height="40" width="200" id="logo1" onclick="window.location.reload()">
+        <p id="tit">UNIDADE ACADÊMICA ESPECIALIZADA EM CIÊNCIAS AGRÁRIAS</p>
+        <div id="rectangle"></div>
+    </header>
+</head>
+<body>
+    <video autoplay id="video"></video>
+    <canvas id="canvas"></canvas>
+    <button id="btn">Tirar foto</button>
+     <button id="btn" onclick="window.location.reload()">Recarregar</button>
+    <script src="script.js"></script>
+</body>
+</html>
